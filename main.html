@@ -17,8 +17,9 @@
         Sign Up
     </button>
 
-    <!-- Modal -->
+    <!-- Signup Modal -->
     <div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
+
         <div class="modal-dialog">
             <div class="modal-content">
 
@@ -31,39 +32,49 @@
                 <!-- Modal Body -->
                 <div class="modal-body">
 
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email">
-                        <div class="form-text">
-                            Your information is safe with us.
+                    <form>
+
+                        <!-- Email -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            <div class="form-text">
+                                Your information is safe with us.
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
+                        <!-- Password -->
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
 
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
-                    </div>
+                        <!-- Confirm Password -->
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                        </div>
+
+                    </form>
 
                 </div>
 
                 <!-- Modal Footer -->
                 <div class="modal-footer">
+
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                         Close
                     </button>
 
-                    <button type="button" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary">
                         Submit
                     </button>
+
                 </div>
 
             </div>
         </div>
+
     </div>
 
 </div>
